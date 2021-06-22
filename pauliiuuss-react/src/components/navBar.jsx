@@ -15,8 +15,8 @@ export default class navBar extends Component {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/admin" className="nav-link">
-                    Admin Forma
+                  <Link to="/klientas" className="nav-link">
+                    Prideti klienta
                   </Link>
                 </li>
               </ul>

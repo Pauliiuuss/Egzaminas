@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Home from "../pages/home";
+import Home from "../pages/Home";
 
-import NotFound from "../pages/notFound";
+import NotFound from "../pages/NotFound";
 
-import Admin from "../pages/admin";
+import Admin from "../pages/Klientas";
 
 export default class App extends Component {
   render() {
@@ -15,7 +15,7 @@ export default class App extends Component {
           <Route path="/">
             <Home />
           </Route>
-          <Route path="/admin">
+          <Route path="/klientas">
             <Admin />
           </Route>
           <Route>

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
+import KlientoForm from "../components/KlientoFormComponent";
 import NavBar from "../components/NavBar";
-import KlientoForm from "../components/KlientoFormComponent"
 
-export default class home extends Component {
+export default class admin extends Component {
   render() {
     return (
       <div className="container">
